@@ -7,7 +7,7 @@
 */
 --->
 
-			<div id="menu">
+            <div id="menu">
                 <div class="tmp-menu">
                     <li><a href="<?php echo base_url() ?>">HOME</a></li>
                     <li><a href="<?php echo base_url() ?>website/daftar_buku">DAFTAR BUKU</a></li>

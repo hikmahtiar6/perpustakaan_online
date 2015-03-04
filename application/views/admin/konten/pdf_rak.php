@@ -80,7 +80,7 @@ $no=1;foreach($rak->result() as $data)
     $this->fpdf->SetFont('Times','',12);
     $this->fpdf->Cell(6  , 0.7, $no  , 1, 'LR', 'L');
     $this->fpdf->Cell(13 , 0.7, $data->nama_rak , 1, 'LR', 'L');
-	$no++;
+    $no++;
 }
 /* setting posisi footer 3 cm dari bawah */
 $this->fpdf->SetY(-3);

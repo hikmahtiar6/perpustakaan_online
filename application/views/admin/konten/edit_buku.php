@@ -11,18 +11,18 @@
 <form method="post" action="<?php echo base_url()?>administrator/update_buku/<?php echo $rw->id."/".md5($rw->id).".html"?>">
    
     <table>
-    	<tr height="50">
+        <tr height="50">
             <td>Kategori</td>
             <td style="padding: 0 5px 0 5px;"> : </td>
             <td>
                 <select  style="padding: 5px 5px 5px 5px;width:250px;" name="kategori">
                 <?php 
-					$s = $this->db->query("select * from library_kategori where kode = '$kod'");
-					foreach($s->result() as $riw){ $ktg = $riw->nama_kategori;}
-				?>
-                	<option style="padding: 5px;" value="none"><?php echo $ktg?></option>
+                    $s = $this->db->query("select * from library_kategori where kode = '$kod'");
+                    foreach($s->result() as $riw){ $ktg = $riw->nama_kategori;}
+                ?>
+                    <option style="padding: 5px;" value="none"><?php echo $ktg?></option>
                     <option value="none"></option>
-					<?php foreach($kategori->result() as $row) {?>
+                    <?php foreach($kategori->result() as $row) {?>
                     <option style="padding: 5px;" value="<?php echo $row->kode?>"><?php echo $row->nama_kategori?></option>
                     <?php } ?>
                 </select>

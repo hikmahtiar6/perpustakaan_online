@@ -82,16 +82,16 @@ $this->fpdf->Cell(4 , 1, 'TANGGAL' , 1, 'LR', 'L');
 /* generate hasil query disini */
 $no=1;foreach($buku->result() as $data)
 {
-	$tgl = substr($data->tanggal,8,2).substr($data->tanggal,4,4).substr($data->tanggal,0,4);
+    $tgl = substr($data->tanggal,8,2).substr($data->tanggal,4,4).substr($data->tanggal,0,4);
     $this->fpdf->Ln();
     $this->fpdf->SetFont('Times','',12);
     $this->fpdf->Cell(1  , 0.7, $no  , 1, 'LR', 'L');
-	$this->fpdf->Cell(8  , 0.7, $data->judul_books  , 1, 'LR', 'L');
+    $this->fpdf->Cell(8  , 0.7, $data->judul_books  , 1, 'LR', 'L');
     $this->fpdf->Cell(5 , 0.7, $data->Pengarang , 1, 'LR', 'L');
-	$this->fpdf->Cell(7 , 0.7, $data->penerbit , 1, 'LR', 'L');
-	$this->fpdf->Cell(2.5 , 0.7, $data->jumlah , 1, 'LR', 'L');
-	$this->fpdf->Cell(4 , 0.7, $tgl , 1, 'LR', 'L');
-	$no++;
+    $this->fpdf->Cell(7 , 0.7, $data->penerbit , 1, 'LR', 'L');
+    $this->fpdf->Cell(2.5 , 0.7, $data->jumlah , 1, 'LR', 'L');
+    $this->fpdf->Cell(4 , 0.7, $tgl , 1, 'LR', 'L');
+    $no++;
 }
 /* setting posisi footer 3 cm dari bawah */
 $this->fpdf->SetY(-3);

@@ -32,7 +32,7 @@
             <td>
                 <textarea id="isi" style="padding: 5px;width: 250px;" name="isi">
                 </textarea>
-				 <script>
+                 <script>
                     CKEDITOR.replace( 'isi',
                         {
                             height : 100

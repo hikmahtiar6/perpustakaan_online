@@ -80,9 +80,9 @@ $no=1;foreach($kategori->result() as $data)
     $this->fpdf->Ln();
     $this->fpdf->SetFont('Times','',12);
     $this->fpdf->Cell(3  , 0.7, $no  , 1, 'LR', 'L');
-	$this->fpdf->Cell(7  , 0.7, $data->kode  , 1, 'LR', 'L');
+    $this->fpdf->Cell(7  , 0.7, $data->kode  , 1, 'LR', 'L');
     $this->fpdf->Cell(9 , 0.7, $data->nama_kategori , 1, 'LR', 'L');
-	$no++;
+    $no++;
 }
 /* setting posisi footer 3 cm dari bawah */
 $this->fpdf->SetY(-3);

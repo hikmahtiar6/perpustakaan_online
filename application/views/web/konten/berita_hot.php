@@ -9,13 +9,13 @@
 
 
 <?php foreach($berita_hot as $row) { ?>
-					<div class="konten-kanan">
-                    	<div class="wadah">
-                        	<div class="judul-konten"><?php echo $row->judul ?></div>
+                    <div class="konten-kanan">
+                        <div class="wadah">
+                            <div class="judul-konten"><?php echo $row->judul ?></div>
                             <div class="isi-konten">
-                            	<p>
-                                	<?php echo $row->isi?>
-                                	
+                                <p>
+                                    <?php echo $row->isi?>
+                                    
                                         <?php } ?>                                  
                                  </p>
                                  <hr />

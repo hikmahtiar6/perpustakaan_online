@@ -26,7 +26,7 @@
 
             
           
-			<!--  start message-yellow -->
+            <!--  start message-yellow -->
             <!--
             <div id="message-yellow">
             <table border="0" width="100%" cellpadding="0" cellspacing="0">
@@ -39,22 +39,22 @@
             -->
             <!--  end message-yellow -->
             
- 	        <table border="0" width="100%" cellpadding="0" cellspacing="0">
+             <table border="0" width="100%" cellpadding="0" cellspacing="0">
             <tr valign="top">
               <td><!--  start step-holder -->
                 <!--  end step-holder -->
                 <div id="table-content">
                 <p align="center"></p>
                 <div style="line-height:20px;font-size:14px;">
-		    
-		    <a style="padding: 10px;background: #0a9aff;position: relative;margin-bottom: 10px;border-radius:7px;color: #FFF;font-weight:bold;" id="pancibox3" href="<?php echo base_url()?>administrator/tambah_rak">Tambah Data Rak Buku</a>
+            
+            <a style="padding: 10px;background: #0a9aff;position: relative;margin-bottom: 10px;border-radius:7px;color: #FFF;font-weight:bold;" id="pancibox3" href="<?php echo base_url()?>administrator/tambah_rak">Tambah Data Rak Buku</a>
 
                     <div style="padding: 5px 5px 20px 5px;margin-top: 10px;">
-			
-			
-		    </div>
-		    
-		    
+            
+            
+            </div>
+            
+            
                     <table style="font-family: calibri;border: 1px solid #CCC;" width="100%" cellspacing="0" border="1">
                         <tr style="background:#333;color: #f2f2f2;text-align: center;">
                             <td style="padding: 5px;">No</td>
@@ -63,8 +63,8 @@
                         </tr>
                         
 
-			<?php $no=1;foreach($sql as $row) { ?>
-			<tr style="background:#f3f3f3;text-align: center;">
+            <?php $no=1;foreach($sql as $row) { ?>
+            <tr style="background:#f3f3f3;text-align: center;">
                             <td style="padding: 5px;"><?php echo $no;?></td>
                             <td><?php echo $row->nama_rak?></td>
                             <td>
@@ -75,7 +75,7 @@
                         </tr><?php $no++;} ?>
               </table>
               <div class="paginator"><?php echo $paginator ?></div>
-	    
+        
                     
                 </div>
                 <br />
@@ -85,7 +85,7 @@
                 <!-- end id-form  -->
               </td>
               <td>
-              	<!--  start related-activities include pengumuman--> 
+                  <!--  start related-activities include pengumuman--> 
                 <!-- end related-activities -->
               </td>
             </tr>
@@ -97,7 +97,7 @@
 
       
 
-	<div class="clear"></div>
+    <div class="clear"></div>
      
     </div>
     <!--  end content-table-inner ............................................END  -->

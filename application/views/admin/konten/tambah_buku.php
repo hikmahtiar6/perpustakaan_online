@@ -12,12 +12,12 @@
 <form method="post" action="<?php echo base_url()?>administrator/add_buku">
     
     <table>
-    	<tr height="50">
+        <tr height="50">
             <td>Kategori</td>
             <td style="padding: 0 5px 0 5px;"> : </td>
             <td>
                 <select  style="padding: 5px 5px 5px 5px;width:250px;" name="kategori">
-                	<option style="padding: 5px;" value="none">- Pilih Kategori -</option>
+                    <option style="padding: 5px;" value="none">- Pilih Kategori -</option>
                     <?php foreach($sql->result() as $row) { ?>
                     <option style="padding: 5px;" value="<?php echo $row->kode?>"><?php echo $row->nama_kategori?></option>
                     <?php }?>
