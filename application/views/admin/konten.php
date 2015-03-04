@@ -7,17 +7,17 @@
 
 
 <?php 
-	$sessi = $_SESSION['username'];
-	$sql=$this->db->query("select * from library_users where username = '$sessi'");
-	foreach($sql->result() as $dat)
-	{
-		$nama = $dat->nama_lengkap;
-		$user = $dat->username;
-		$status = $dat->status;
-		$email = $dat->email;
-		$alamat = $dat->alamat;
-		$tlp = $dat->telepon;
-	}
+    $sessi = $_SESSION['username'];
+    $sql=$this->db->query("select * from library_users where username = '$sessi'");
+    foreach($sql->result() as $dat)
+    {
+        $nama = $dat->nama_lengkap;
+        $user = $dat->username;
+        $status = $dat->status;
+        $email = $dat->email;
+        $alamat = $dat->alamat;
+        $tlp = $dat->telepon;
+    }
 ?>
 <div id="page-heading">
     <h1>Selamat Datang <font color="#BBB"><?php echo $nama?></font> <?php echo '<font color="#FF9933"> ( '.$status.')</font>'?></h1>
@@ -37,7 +37,7 @@
     <td>
     <!--  start content-table-inner ...................................................................... START -->
     <div id="content-table-inner">
-    		
+            
             <div id="message-green">
             <table border="0" width="100%" cellpadding="0" cellspacing="0">
             <tr>
@@ -48,7 +48,7 @@
             </div>
             
           
-			<!--  start message-yellow -->
+            <!--  start message-yellow -->
             <!--
             <div id="message-yellow">
             <table border="0" width="100%" cellpadding="0" cellspacing="0">
@@ -61,40 +61,40 @@
             -->
             <!--  end message-yellow -->
             <h1 style="margin-left:10px;padding-bottom:10px;padding-top:10px;">Data Diri Anda</h1>
- 	        <table border="0" width="100%" cellpadding="0" cellspacing="0">
+             <table border="0" width="100%" cellpadding="0" cellspacing="0">
             <tr valign="top">
               <td><!--  start step-holder -->
                 <!--  end step-holder -->
                 <div id="table-content">
                 <p align="center"></p>
                 <div style="line-height:20px;font-size:14px;">
-		    <table style="line-height:20px;font-size:16px;font-family: calibri;">
-			<tr>
-			    <td style="padding: 5px;">Nama </td>
-			    <td style="padding: 5px;">:</td>
-			    <td style="padding: 5px;color: red;"><?php echo $nama?></td>
-			</tr>
-			<tr>
-			    <td style="padding: 5px;">Username</td>
-			    <td style="padding: 5px;">:</td>
-			    <td style="padding: 5px;color: red;"><?php echo $user?></td>
-			</tr>
-			<tr>
-			    <td style="padding: 5px;">Email</td>
-			    <td style="padding: 5px;">:</td>
-			    <td style="padding: 5px;color: red;"><?php echo $email?></td>
-			</tr>
-			<tr>
-			    <td style="padding: 5px;">Alamat</td>
-			    <td style="padding: 5px;">:</td>
-			    <td style="padding: 5px;color: red;"><?php echo $alamat?></td>
-			</tr>
-			<tr>
-			    <td style="padding: 5px;">Telepon</td>
-			    <td style="padding: 5px;">:</td>
-			    <td style="padding: 5px;color: red;"><?php echo $tlp?></td>
-			</tr>
-		    </table>
+            <table style="line-height:20px;font-size:16px;font-family: calibri;">
+            <tr>
+                <td style="padding: 5px;">Nama </td>
+                <td style="padding: 5px;">:</td>
+                <td style="padding: 5px;color: red;"><?php echo $nama?></td>
+            </tr>
+            <tr>
+                <td style="padding: 5px;">Username</td>
+                <td style="padding: 5px;">:</td>
+                <td style="padding: 5px;color: red;"><?php echo $user?></td>
+            </tr>
+            <tr>
+                <td style="padding: 5px;">Email</td>
+                <td style="padding: 5px;">:</td>
+                <td style="padding: 5px;color: red;"><?php echo $email?></td>
+            </tr>
+            <tr>
+                <td style="padding: 5px;">Alamat</td>
+                <td style="padding: 5px;">:</td>
+                <td style="padding: 5px;color: red;"><?php echo $alamat?></td>
+            </tr>
+            <tr>
+                <td style="padding: 5px;">Telepon</td>
+                <td style="padding: 5px;">:</td>
+                <td style="padding: 5px;color: red;"><?php echo $tlp?></td>
+            </tr>
+            </table>
                 </div>
                 <br />
                 
@@ -103,7 +103,7 @@
                 <!-- end id-form  -->
               </td>
               <td>
-              	<!--  start related-activities include pengumuman-->
+                  <!--  start related-activities include pengumuman-->
                 <!-- end related-activities -->
               </td>
             </tr>
@@ -115,7 +115,7 @@
 
       
 
-	<div class="clear"></div>
+    <div class="clear"></div>
      
     </div>
     <!--  end content-table-inner ............................................END  -->

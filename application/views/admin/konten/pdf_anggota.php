@@ -85,12 +85,12 @@ $no=1;foreach($anggota->result() as $data)
     $this->fpdf->Ln();
     $this->fpdf->SetFont('Times','',12);
     $this->fpdf->Cell(1  , 0.7, $no  , 1, 'LR', 'L');
-	$this->fpdf->Cell(4  , 0.7, $data->nama_lengkap  , 1, 'LR', 'L');
-	$this->fpdf->Cell(5  , 0.7, $data->username  , 1, 'LR', 'L');
+    $this->fpdf->Cell(4  , 0.7, $data->nama_lengkap  , 1, 'LR', 'L');
+    $this->fpdf->Cell(5  , 0.7, $data->username  , 1, 'LR', 'L');
     $this->fpdf->Cell(7.5 , 0.7, $data->status , 1, 'LR', 'L');
-	$this->fpdf->Cell(6 , 0.7, $data->email , 1, 'LR', 'L');
-	$this->fpdf->Cell(4 , 0.7, $data->telepon , 1, 'LR', 'L');
-	$no++;
+    $this->fpdf->Cell(6 , 0.7, $data->email , 1, 'LR', 'L');
+    $this->fpdf->Cell(4 , 0.7, $data->telepon , 1, 'LR', 'L');
+    $no++;
 }
 /* setting posisi footer 3 cm dari bawah */
 $this->fpdf->SetY(-3);

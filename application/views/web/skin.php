@@ -27,15 +27,15 @@ li
 }
 
 ::-webkit-scrollbar
-	{
-		width:5px;
-		background:#000;
-	}
-	::-webkit-scrollbar-thumb
-	{
-		background:#CCC;
-		border-radius:5px;
-	}
+    {
+        width:5px;
+        background:#000;
+    }
+    ::-webkit-scrollbar-thumb
+    {
+        background:#CCC;
+        border-radius:5px;
+    }
 
 #up
 {
@@ -76,19 +76,19 @@ li
 #all
 {
     width: 950px;
-	clear:both;
+    clear:both;
     margin: auto;
     margin-top: 30px;
     /*box-shadow: 0 0 5px #000;*/
     border-radius: 7px;
     border: 0 0 1px solid #e8e8e8;
-	padding-bottom:50px;
+    padding-bottom:50px;
 }
 
 #date
 {
-	padding:5px;
-	color:#666;
+    padding:5px;
+    color:#666;
 }
 
 #menu
@@ -130,12 +130,12 @@ li
     background: -moz-linear-gradient(#0082be,#005b85);
     background: -webkit-linear-gradient(#0082be,#005b85);
     border-radius: 3px;
-	color:#ccc;
+    color:#ccc;
 }
 
 #menu .tmp-menu .pilih a
 {
-	color:#ccc;
+    color:#ccc;
 }
 
 #menu .tmp-menu > li a
@@ -145,95 +145,95 @@ li
 
 #menu .tmp-menu > li:hover a
 {
-	color:#ccc;
+    color:#ccc;
 }
 
 #tutup-slide
 {
-	z-index:1000;
-	width:950px;
-	position:absolute;
-	height:25px;
-	background:white;
+    z-index:1000;
+    width:950px;
+    position:absolute;
+    height:25px;
+    background:white;
 }
 
 #konten
 {
-	/*border:1px solid #999;*/
-	margin-top:35px;
-	min-height:300px;
-	float:left;
-	width:950px;
-	border-radius:0 0 7px 7px;
+    /*border:1px solid #999;*/
+    margin-top:35px;
+    min-height:300px;
+    float:left;
+    width:950px;
+    border-radius:0 0 7px 7px;
 }
 
 #konten .konten-kiri
 {
-	float:left;
-	width:300px;
-	min-height:300px;
+    float:left;
+    width:300px;
+    min-height:300px;
 }
 
 #konten .konten-kanan
 {
-	float:right;
-	width:640px;
-	min-height:300px;
+    float:right;
+    width:640px;
+    min-height:300px;
 }
 
 #konten .konten-kiri .wadah
 {
-	margin:auto;
-	border:1px solid #CCC;
-	width:270px;
-	border-radius:7px;
-	background:#FFF;
-	box-shadow:0 0 10px #CCC;
-	padding:5px;
+    margin:auto;
+    border:1px solid #CCC;
+    width:270px;
+    border-radius:7px;
+    background:#FFF;
+    box-shadow:0 0 10px #CCC;
+    padding:5px;
 }
 
 #konten .konten-kiri .wadah .isi .ahref
 {
-	color:#666;
+    color:#666;
 }
 
 #konten .konten-kiri .wadah .isi .ahref:hover
 {
-	color:red;
+    color:red;
 }
 
 #konten .konten-kiri .wadah h2
 {
-	padding:5px;
-	font-size:20px;
-	margin:auto;
-	text-align:center;
-	color:#0074E8;
-	background:-webkit-linear-gradient(#C4C4C4,#A8A8A8);
-	border-radius:7px;
+    padding:5px;
+    font-size:20px;
+    margin:auto;
+    text-align:center;
+    color:#0074E8;
+    background:-webkit-linear-gradient(#C4C4C4,#A8A8A8);
+    border-radius:7px;
 }
 
 #konten .konten-kiri .isi
 {
-	width:250px;
-	margin:auto;
+    width:250px;
+    margin:auto;
 }
 
 #konten .konten-kiri .isi .button
 {
-	background:none;
-	border:none;
-	background: linear-gradient(#009ce5,#006a9c);
+    background:none;
+    border:none;
+    background: linear-gradient(#009ce5,#006a9c);
     background: -webkit-linear-gradient(#009ce5,#006a9c);
     background: -moz-linear-gradient(#009ce5,#006a9c);
     background: -o-linear-gradient(#009ce5,#006a9c);
-	border-radius: 3px;
-	color:#FFF;
+    border-radius: 3px;
+    color:#FFF;
 }
 
 #konten .konten-kiri .isi .button:hover
 {
-	background: linear-gradient(#0082be,#005b85);
+    background: linear-gradient(#0082be,#005b85);
     background: -webkit-linear-gradient(#0082be,#005b85);
     background: -moz-linear-gradient(#0082be,#005b85);
     background: -webkit-linear-gradient(#0082be,#005b85);
@@ -242,106 +242,106 @@ li
 
 #konten .konten-kiri .wadah .isi > li
 {
-	width:200px;
-	margin:5px auto;
-	border:1px solid #eee;
-	border-radius:7px;
-	padding:5px 10px 5px 10px;
-	font-size:15px;
+    width:200px;
+    margin:5px auto;
+    border:1px solid #eee;
+    border-radius:7px;
+    padding:5px 10px 5px 10px;
+    font-size:15px;
 }
 
 #konten .konten-kiri .wadah .isi > li:hover
 {
-	background:#48A4FF;
+    background:#48A4FF;
 }
 
 #konten .konten-kiri .wadah .isi > li:hover a
 {
-	color:#FFF;
+    color:#FFF;
 }
 
 #konten .konten-kiri .wadah .isi > li a
 {
-	color:#000;
+    color:#000;
 }
 
 #konten .konten-kiri .wadah .isi > li a:hover
 {
-	color:#FFF;
+    color:#FFF;
 }
 
 #konten .konten-kanan .wadah
 {
-	background:#FFF;
-	border:5px solid #CCC;
-	width:550px;
-	padding:10px 10px 5px 10px;
-	margin:auto;
-	border-radius:7px;
-	box-shadow:0 0 10px #CCC;
+    background:#FFF;
+    border:5px solid #CCC;
+    width:550px;
+    padding:10px 10px 5px 10px;
+    margin:auto;
+    border-radius:7px;
+    box-shadow:0 0 10px #CCC;
 }
 
 #konten .konten-kanan .wadah .judul-konten
 {
-	font-size:25px;
-	text-align:center;
-	padding:5px;
-	font-weight:bold;
-	color:#FFF;
-	border-radius:5px;
-	background:linear-gradient(#787878,#515151);
-	background:-webkit-linear-gradient(#787878,#515151);
-	background:-moz-linear-gradient(#787878,#515151);
-	background:-o-linear-gradient(#787878,#515151);
+    font-size:25px;
+    text-align:center;
+    padding:5px;
+    font-weight:bold;
+    color:#FFF;
+    border-radius:5px;
+    background:linear-gradient(#787878,#515151);
+    background:-webkit-linear-gradient(#787878,#515151);
+    background:-moz-linear-gradient(#787878,#515151);
+    background:-o-linear-gradient(#787878,#515151);
 }
 
 #konten .konten-kanan .wadah .judul-konten a
 {
-	color:#FFF;
+    color:#FFF;
 }
 
 #konten .konten-kanan .wadah .judul-konten a:hover
 {
-	color:#D7D7D7;
+    color:#D7D7D7;
 }
 
 #konten .konten-kanan .wadah .isi-konten
 {
-	color:#666;
-	padding-bottom:10px;
-	padding-top:10px;
+    color:#666;
+    padding-bottom:10px;
+    padding-top:10px;
 }
 
 #konten .konten-kanan .wadah .isi-konten p
 {
-	padding:0;
+    padding:0;
 }
 
 #konten .konten-kanan .wadah .isi-konten p .tab
 {
-	margin-left:25px;
+    margin-left:25px;
 }
 
 #konten .konten-kanan .wadah .isi-konten p .image
 {
-	float:left;
+    float:left;
 }
 
 .button
 {
-	background:none;
-	border:none;
-	background: linear-gradient(#009ce5,#006a9c);
+    background:none;
+    border:none;
+    background: linear-gradient(#009ce5,#006a9c);
     background: -webkit-linear-gradient(#009ce5,#006a9c);
     background: -moz-linear-gradient(#009ce5,#006a9c);
     background: -o-linear-gradient(#009ce5,#006a9c);
-	border-radius: 3px;
-	color:#FFF;
+    border-radius: 3px;
+    color:#FFF;
 }
 
 .button:hover
 {
-	background: linear-gradient(#0082be,#005b85);
+    background: linear-gradient(#0082be,#005b85);
     background: -webkit-linear-gradient(#0082be,#005b85);
     background: -moz-linear-gradient(#0082be,#005b85);
     background: -webkit-linear-gradient(#0082be,#005b85);
@@ -350,38 +350,38 @@ li
 
 #footer
 {
-	padding:10px 0 10px 0;
-	min-height:10px;
-	width:950px;
-	float:left;
-	color:#666;
-	font-size:13px;
-	margin-top:30px;
-	border-bottom:solid 1px #999;
-	border-top:solid 1px #999;
+    padding:10px 0 10px 0;
+    min-height:10px;
+    width:950px;
+    float:left;
+    color:#666;
+    font-size:13px;
+    margin-top:30px;
+    border-bottom:solid 1px #999;
+    border-top:solid 1px #999;
 }
 
 #footer a
 {
-	color:#666;
+    color:#666;
 }
 
 #footer a:hover
 {
-	color:#000;
-	text-decoration:underline;
+    color:#000;
+    text-decoration:underline;
 }
 
 #footer img
 {
-	float:left;
-	padding-right:10px;
+    float:left;
+    padding-right:10px;
 }
 
 #clear
 {
-	height:30px;
-	float:left;
-	width:950px;
+    height:30px;
+    float:left;
+    width:950px;
 }
 </style>

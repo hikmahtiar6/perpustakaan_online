@@ -4,9 +4,9 @@
      script : header.php ,
      All rights reserved.
 */--->
-	<?php ob_start(); 
-	error_reporting(E_ALL^E_NOTICE)
-	?>
+    <?php ob_start(); 
+    error_reporting(E_ALL^E_NOTICE)
+    ?>
     <?php date_default_timezone_set("Asia/Jakarta");?>
     <html>
     <head>
@@ -44,8 +44,8 @@
         </script>
         
         <script type="text/javascript" src="<?php echo base_url()?>plugin/js/pancibox/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-	<script type="text/javascript" src="<?php echo base_url()?>plugin/js/pancibox/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>plugin/js/pancibox/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+    <script type="text/javascript" src="<?php echo base_url()?>plugin/js/pancibox/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>plugin/js/pancibox/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
         
         
 
@@ -93,7 +93,7 @@
                 <a href="<?php echo base_url()?>administrator/logout" name="log" id="logout" onClick="return confirm('Apakah Anda Yakin Ingin Keluar?')"><img src="<?php echo base_url()?>plugin/administrator/images/shared/nav/nav_logout.gif" width="64" height="14" alt="" /></a>
                 <div class="clear">&nbsp;</div>
             
-                <!--  start account-content -->	
+                <!--  start account-content -->    
                 <div class="account-content">
                 <div class="account-drop-inner">
                     <a href="" id="acc-settings">Settings</a>

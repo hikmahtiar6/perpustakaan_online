@@ -26,7 +26,7 @@
 
             
           
-			<!--  start message-yellow -->
+            <!--  start message-yellow -->
             <!--
             <div id="message-yellow">
             <table border="0" width="100%" cellpadding="0" cellspacing="0">
@@ -39,21 +39,21 @@
             -->
             <!--  end message-yellow -->
             
- 	        <table border="0" width="100%" cellpadding="0" cellspacing="0">
+             <table border="0" width="100%" cellpadding="0" cellspacing="0">
             <tr valign="top">
               <td><!--  start step-holder -->
                 <!--  end step-holder -->
                 <div id="table-content">
                 <p align="center"></p>
                 <div style="line-height:20px;font-size:14px;">
-		    
-		    
+            
+            
 
                     <div style="padding: 5px 5px 20px 5px;margin-top: 10px;">
-			
-					    </div>
-		    
-		    
+            
+                        </div>
+            
+            
                     <table style="font-family: calibri;border: 1px solid #CCC;" width="100%" cellspacing="0" border="1">
                         <tr style="background:#333;color: #f2f2f2;text-align: center;">
                             <td style="padding: 5px;">No</td>
@@ -63,7 +63,7 @@
                             <td>Pengaturan</td>
                         </tr>
 <?php $no=1;foreach($sql as $row) {?>
-			<tr style="background:#f3f3f3;text-align: center;">
+            <tr style="background:#f3f3f3;text-align: center;">
                             <td style="padding: 5px;"><?php echo $no?></td>
                             <td><?php echo $row->nama?></td>
                             <td><?php echo $row->email?></td>
@@ -73,14 +73,14 @@
                                 <span style="margin-left: 5px;">&nbsp;</span>
                                 <a onclick="return confirm('Apakah Anda Yakin Akan Menghapus Ini?')" href="<?php echo base_url()?>administrator/delete_kritik/<?php echo $row->id?>/<?php echo md5($row->id).".html"?>" title="Delete"><img src="<?php echo base_url()?>plugin/administrator/images/admin/icons/delete.png" width="20"></a>
                             </td>
-			   
+               
                         </tr><?php $no++; } ?>
 
                     </table>
-	    
+        
         
     
-		
+        
     
                     
                 </div>
@@ -91,7 +91,7 @@
                 <!-- end id-form  -->
               </td>
               <td>
-              	<!--  start related-activities include pengumuman--> 
+                  <!--  start related-activities include pengumuman--> 
                 <!-- end related-activities -->
               </td>
             </tr>
@@ -103,7 +103,7 @@
 
       
 
-	<div class="clear"></div>
+    <div class="clear"></div>
      
     </div>
     <!--  end content-table-inner ............................................END  -->

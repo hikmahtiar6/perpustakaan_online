@@ -82,9 +82,9 @@ $no=1;foreach($pengunjung as $data)
     $this->fpdf->SetFont('Times','',12);
     $this->fpdf->Cell(2  , 0.7, $no  , 1, 'LR', 'L');
     $this->fpdf->Cell(5 , 0.7, $data->nama , 1, 'LR', 'L');
-	$this->fpdf->Cell(7 , 0.7, $data->tujuan , 1, 'LR', 'L');
-	$this->fpdf->Cell(5 , 0.7, $data->email , 1, 'LR', 'L');
-	$no++;
+    $this->fpdf->Cell(7 , 0.7, $data->tujuan , 1, 'LR', 'L');
+    $this->fpdf->Cell(5 , 0.7, $data->email , 1, 'LR', 'L');
+    $no++;
 }
 /* setting posisi footer 3 cm dari bawah */
 $this->fpdf->SetY(-3);

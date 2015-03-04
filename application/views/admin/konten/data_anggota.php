@@ -37,7 +37,7 @@
 
             
           
-			<!--  start message-yellow -->
+            <!--  start message-yellow -->
             <!--
             <div id="message-yellow">
             <table border="0" width="100%" cellpadding="0" cellspacing="0">
@@ -50,21 +50,21 @@
             -->
             <!--  end message-yellow -->
             
- 	        <table border="0" width="100%" cellpadding="0" cellspacing="0">
+             <table border="0" width="100%" cellpadding="0" cellspacing="0">
             <tr valign="top">
               <td><!--  start step-holder -->
                 <!--  end step-holder -->
                 <div id="table-content">
                 <p align="center"></p>
                 <div style="line-height:20px;font-size:14px;">
-		    
-		    <a style="padding: 10px;background: #0a9aff;position: relative;margin-bottom: 10px;border-radius:7px;color: #FFF;font-weight:bold;" id="pancibox3" href="<?php echo base_url()?>administrator/tambah_anggota">Tambah Anggota</a>
+            
+            <a style="padding: 10px;background: #0a9aff;position: relative;margin-bottom: 10px;border-radius:7px;color: #FFF;font-weight:bold;" id="pancibox3" href="<?php echo base_url()?>administrator/tambah_anggota">Tambah Anggota</a>
 
                     <div style="padding: 5px 5px 20px 5px;margin-top: 10px;">
-			
-				    </div>
-		    
-		    
+            
+                    </div>
+            
+            
                     <table style="font-family: calibri;border: 1px solid #CCC;" width="100%" cellspacing="0" border="1">
                         <tr style="background:#333;color: #f2f2f2;text-align: center;">
                             <td style="padding: 5px;">No</td>
@@ -78,7 +78,7 @@
                         </tr>
                         
 <?php $no=1;foreach($sql as $row) { ?>
-			<tr style="background:#f3f3f3;text-align: center;">
+            <tr style="background:#f3f3f3;text-align: center;">
                             <td valign="top" style="padding: 5px;"><?php echo $no ?></td>
                             <td valign="top"><?php echo $row->nama_lengkap?></td>
                             <td valign="top"><?php echo $row->username?></td>
@@ -137,7 +137,7 @@ $sisa = $sisa % 60;
 
 $d = floor($sisa / 1);
 
-							?>
+                            ?>
                             
                             
                             
@@ -145,8 +145,8 @@ $d = floor($sisa / 1);
                             
                             
                             Dari <?php echo "<font color='green'>".$daftar."</font>"?> sampai <?php echo "<font color='red'>".$kadaluarsa." </font>Pukul <font color='blue'>00:00:00</font>"?>
-								<?php 
-									echo "<br>Sisa Waktu: <font color='red'>".$a."</font> hari , <font color='red'>".$b."</font> jam , <font color='red'>".$c."</font> menit , <font color='red'>".$d."</font> detik lagi";
+                                <?php 
+                                    echo "<br>Sisa Waktu: <font color='red'>".$a."</font> hari , <font color='red'>".$b."</font> jam , <font color='red'>".$c."</font> menit , <font color='red'>".$d."</font> detik lagi";
 ?>
                                 
 
@@ -160,16 +160,16 @@ $d = floor($sisa / 1);
                                 <span style="margin-left: 5px;">&nbsp;</span>-->
                                 <a onclick="return confirm('Apakah Anda Yakin Akan Menghapus Ini?')" href="<?php echo base_url()?>administrator/delete_anggota/<?php echo $row->id?>/<?php echo md5($row->id).".html"?>" title="Delete"><img src="<?php echo base_url()?>plugin/administrator/images/admin/icons/delete.png" width="20"></a>
                             </td>
-			    
+                
                         </tr><?php  $no++; }?>
 
                     </table>
                     
                     <div class="paginator"><?php echo $paginator ?></div>
-	    
+        
         
     
-		
+        
    
                     
                 </div>
@@ -180,7 +180,7 @@ $d = floor($sisa / 1);
                 <!-- end id-form  -->
               </td>
               <td>
-              	<!--  start related-activities include pengumuman--> 
+                  <!--  start related-activities include pengumuman--> 
                 <!-- end related-activities -->
               </td>
             </tr>
@@ -192,7 +192,7 @@ $d = floor($sisa / 1);
 
       
 
-	<div class="clear"></div>
+    <div class="clear"></div>
      
     </div>
     <!--  end content-table-inner ............................................END  -->
